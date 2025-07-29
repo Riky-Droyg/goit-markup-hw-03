@@ -142,7 +142,7 @@ img {
 	gap: 24px;
 }
 
-.about-section__item {
+.about-section__item li {
 	width: calc((100% - 72px) / 4);
 }
 .team-section {
