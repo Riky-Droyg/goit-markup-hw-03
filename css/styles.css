@@ -142,8 +142,8 @@ img {
 	gap: 24px;
 }
 
-.about-section__list li {
-	width: calc((100% - 72px) / 4);
+.about-section__item {
+	width: calc((100% - 3 * 24px) / 4);
 }
 .team-section {
 	background-color: #f4f4fd;
@@ -161,7 +161,6 @@ img {
 .team-section__list {
 	display: flex;
 	gap: 24px;
-	
 }
 .team-section__text {
 	padding: 32px 0;
