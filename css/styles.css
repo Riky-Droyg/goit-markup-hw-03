@@ -50,9 +50,6 @@ body {
 	text-align: center;
 	letter-spacing: 0.02em;
 	color: #ffffff;
-	position: sticky;
-	top: 0;
-	z-index: 100;
 }
 .font__link-text {
 	color: #4d5ae5;
@@ -99,13 +96,13 @@ body {
 	letter-spacing: 0.02em;
 	color: #2e2f42;
 }
-.team-section__paragraph {
+.team-section__paragraph{
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
 }
-.portfolio-section__header {
+.portfolio-section__header{
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
@@ -120,32 +117,19 @@ body {
 	letter-spacing: 0.02em;
 	color: #2e2f42;
 }
-.portfolio-section__list-paragraph {
+.portfolio-section__list-paragraph{
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
 }
-.footer {
+.footer{
 	background-color: #2e2f42;
 }
-.footer__paragraph {
+.footer__paragraph{
 	line-height: 1.5;
-	color: #f4f4fd;
+	color: #F4F4FD;
 	letter-spacing: 0.02em;
 }
-.footer__logo-span {
+.footer__logo-span{
 	color: #f4f4fd;
-}
-.absolute-wrapper {
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 1000;
-}
-
-.sticky-inner {
-	position: sticky;
-	top: 0;
-	background: white;
 }
