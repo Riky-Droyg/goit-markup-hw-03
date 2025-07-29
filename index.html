@@ -7,7 +7,14 @@
 			content="width=device-width, initial-scale=1.0"
 		/>
 		<title>Document</title>
-
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="./css/styles.css"
+		/>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
@@ -25,76 +32,74 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet"
 		/>
-		<link
-			rel="stylesheet"
-			href="./css/styles.css"
-		/>
 	</head>
 	<body>
-		<header>
-			<nav>
-				<a
-					href="./index.html"
-					class="nav__logo"
-					>Web<span class="nav__logo-span">Studio</span></a
-				>
-				<ul>
-					<li>
-						<a
-							class="font__body-medium"
-							href="./index.html"
-							>Studio</a
-						>
-					</li>
-					<li>
-						<a
-							class="font__body-medium"
-							href=""
-							>Portfolio</a
-						>
-					</li>
-					<li>
-						<a
-							class="font__body-medium"
-							href=""
-							>Contacts</a
-						>
-					</li>
-				</ul>
-			</nav>
+		<header class="header">
+			<div class="container-header container">
+				<nav class="nav">
+					<a
+						href="./index.html"
+						class="nav__logo"
+						>Web<span class="nav__logo-span">Studio</span></a
+					>
+					<ul class="nav__list">
+						<li class="nav__list-item">
+							<a
+								class="font__body-medium"
+								href="./index.html"
+								>Studio</a
+							>
+						</li>
+						<li class="nav__list-item">
+							<a
+								class="font__body-medium"
+								href=""
+								>Portfolio</a
+							>
+						</li>
+						<li class="nav__list-item">
+							<a
+								class="font__body-medium"
+								href=""
+								>Contacts</a
+							>
+						</li>
+					</ul>
+				</nav>
 
-			<address class="contact-info">
-				<ul>
-					<li>
-						<a
-							class="contact-info__link"
-							href="mailto:info@devstudio.com"
-							>info@devstudio.com</a
-						>
-					</li>
-					<li>
-						<a
-							class="contact-info__link"
-							href="tel:+110001111111"
-							>+11 (000) 111-11-11</a
-						>
-					</li>
-				</ul>
-			</address>
+				<address class="contact-info">
+					<ul class="contact-info__list">
+						<li>
+							<a
+								class="contact-info__link"
+								href="mailto:info@devstudio.com"
+								>info@devstudio.com</a
+							>
+						</li>
+						<li>
+							<a
+								class="contact-info__link"
+								href="tel:+110001111111"
+								>+11 (000) 111-11-11</a
+							>
+						</li>
+					</ul>
+				</address>
+			</div>
 		</header>
 
 		<main>
-			<section class="hero-section">
+			<section class="hero-section"><div class="container">
 				<h1 class="font__header-one">Effective Solutions for Your Business</h1>
 				<button
-					class="font__link-text"
+					class="hero-section__button"
 					type="button"
 				>
 					Order Service
 				</button>
-			</section>
+			</div></section>
 
-			<section>
+			<section class="features-section"><div class="container visually-hidden"><section>
 				<h2>text</h2>
 
 				<ul>
@@ -114,10 +119,9 @@
 						<h3 class="font__header-three">Technologies</h3>
 						<p class="font__paragraph">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
 					</li>
-				</ul>
-			</section>
+				</ul></div></section>
 
-			<section class="team-section">
+			<section class="team-section"><div class="container">
 				<h2 class="team-section__header">Our Team</h2>
 
 				<ul>
@@ -157,10 +161,9 @@
 						<h3 class="font__header-three">Daniel Wilson</h3>
 						<p class="team-section__paragraph">UI Designer</p>
 					</li>
-				</ul>
-			</section>
+				</ul></div></div></section>
 
-			<section class="portfolio-section">
+			<section class="portfolio-section"><div class="container">
 				<h2 class="portfolio-section__header">Our Portfolio</h2>
 
 				<ul>
@@ -218,17 +221,14 @@
 						<h3 class="portfolio-section__list-header">Online Courses</h3>
 						<p class="portfolio-section__list-paragraph">Marketing</p>
 					</li>
-				</ul>
-			</section>
+				</ul></div></div></section>
 		</main>
 
-		<footer class="footer">
-			<a
-				href="./index.html"
-				class="nav__logo"
+		<footer class="footer"><div class="container">
+			<a href="./index.html" class="footer__logo"
 				>Web<span class="footer__logo-span">Studio</span></a
 			>
 			<p class="footer__paragraph">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-		</footer>
+		</div></footer>
 	</body>
 </html>
