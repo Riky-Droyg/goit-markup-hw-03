@@ -39,9 +39,7 @@ img {
 	gap: 40px;
 	padding: 24px 0;
 }
-.nav__list-item {
-	padding: 24px 0;
-}
+
 .font__body-medium {
 	font-weight: 500;
 	line-height: 1.5;
@@ -143,7 +141,8 @@ img {
 	display: flex;
 	gap: 24px;
 }
-.about-section__list li:first-child {
+
+.about-section__item {
 	width: calc((100% - 72px) / 4);
 }
 .team-section {
@@ -162,6 +161,7 @@ img {
 .team-section__list {
 	display: flex;
 	gap: 24px;
+	
 }
 .team-section__text {
 	padding: 32px 0;
