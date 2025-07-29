@@ -56,7 +56,7 @@ img {
 .contact-info {
 	font-style: normal;
 }
-.contact-info__list{
+.contact-info__list {
 	display: flex;
 	gap: 40px;
 }
